@@ -43,3 +43,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'rspec-rails', '2.13.1', group: [:development, :test]
+gem 'guard-rspec', '3.0.3', group: [:development, :test]
+gem 'capybara', '2.1.0', group: :test
